@@ -15,3 +15,7 @@ variable "dns" {
 variable "dns_zone" {
   type = string
 }
+variable "bucket_cors" {
+  type    = bool
+  default = false
+}

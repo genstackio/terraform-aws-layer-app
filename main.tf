@@ -6,6 +6,7 @@ module "website" {
   zone           = var.dns_zone
   dns            = var.dns
   geolocations   = var.geolocations
+  bucket_cors    = var.bucket_cors
   providers      = {
     aws     = aws
     aws.acm = aws.acm
