@@ -1,6 +1,6 @@
 module "website" {
   source         = "genstackio/website/aws"
-  version        = "0.3.12"
+  version        = "0.3.13"
   name           = var.name
   bucket_name    = var.bucket_name
   zone           = var.dns_zone
