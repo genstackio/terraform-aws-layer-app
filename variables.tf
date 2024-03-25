@@ -26,3 +26,15 @@ variable "functions" {
   }))
   default = []
 }
+variable "response_headers_policy" {
+  type    = string
+  default = null
+}
+variable "origin_request_policy" {
+  type    = string
+  default = null
+}
+variable "cache_policy" {
+  type    = string
+  default = null
+}
