@@ -19,3 +19,10 @@ variable "bucket_cors" {
   type    = bool
   default = false
 }
+variable "functions" {
+  type = list(object({
+    event_type   = string
+    function_arn = string
+  }))
+  default = []
+}
