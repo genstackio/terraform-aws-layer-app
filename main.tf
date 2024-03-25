@@ -12,7 +12,7 @@ module "website" {
     aws     = aws
     aws.acm = aws.acm
   }
-  response_headers_policy = var.response_headers_policy
-  origin_request_policy   = var.origin_request_policy
-  cache_policy            = var.cache_policy
+  response_headers_policy_id = var.response_headers_policy
+  origin_request_policy_id   = var.origin_request_policy
+  cache_policy_id            = var.cache_policy
 }
