@@ -15,6 +15,10 @@ variable "dns" {
 variable "dns_zone" {
   type = string
 }
+variable "apex_redirect" {
+  type    = bool
+  default = false
+}
 variable "bucket_cors" {
   type    = bool
   default = false
@@ -37,4 +41,8 @@ variable "origin_request_policy" {
 variable "cache_policy" {
   type    = string
   default = null
+}
+variable "price_class" {
+  type    = string
+  default = "PriceClass_100"
 }
