@@ -46,3 +46,19 @@ variable "price_class" {
   type    = string
   default = "PriceClass_100"
 }
+variable "error_403_page_path" {
+  type    = string
+  default = "/index.html"
+}
+variable "error_404_page_path" {
+  type    = string
+  default = "/index.html"
+}
+variable "error_403_page_code" {
+  type    = number
+  default = 200
+}
+variable "error_404_page_code" {
+  type    = number
+  default = 200
+}

@@ -17,4 +17,8 @@ module "website" {
   response_headers_policy_id = var.response_headers_policy
   origin_request_policy_id   = var.origin_request_policy
   cache_policy_id            = var.cache_policy
+  error_403_page_path        = var.error_403_page_path
+  error_404_page_path        = var.error_404_page_path
+  error_403_page_code        = var.error_403_page_code
+  error_404_page_code        = var.error_404_page_code
 }
